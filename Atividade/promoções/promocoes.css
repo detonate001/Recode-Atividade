@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+
+    font-family: 'Times New Roman', 'Times New Roman', Times, serif;
+
+}
+
+header .container{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    color: blue;
+    font-family: 'Arial Black', 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin-right: 10px;
+
+}
+
+header nav a:hover{
+    color: gray;
+}
+
+/*tela-principal */
+.tela-principal{
+    font-size: 20px;
+    color: aliceblue;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../Img/travel-logo.png');
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    object-fit: cover;
+    
+    
+
+}
+
+.titulo{
+    margin-left: 100px;
+    font-size: 40px;
+   
+}
+
+.descricao{
+    margin-left: 100px;
+    font-size: 15px;
+   
+
+}
+
+
+.pacotes {
+    background: #e1e8f7;
+    padding: 15px;
+}
+
+.pacotes .pacotes-cards {
+    display: flex;
+    margin: auto;
+    max-width: 950px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pacotes .pacotes-title {
+    width: 100%;
+    text-align: center;
+    margin: 25px 0;
+}
+
+.pacotes .card {
+    width: 250px;
+    height: 350px;
+    background: white;
+    border-radius: 24px 0px;
+    margin: 25px;
+    position: relative;
+}
+
+.pacotes .card-image {
+    width: 250px;
+    height: 200px;
+    border-radius: 24px 0 0 0;
+    object-fit: cover;
+}
+
+.pacotes .card-content {
+    padding: 0 15px;
+}
+
+.pacotes .card-content ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.pacotes .card-content ul li {
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    margin: 3px 0;
+    color: grey;
+    font-weight: bold;
+}
+
+.pacotes .card-content li svg {
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
+
+.pacotes .card-content h1 {
+    font-size: 1rem;
+}
+
+.pacotes .card .card-tag-top {
+    position: absolute;
+    right: 0;
+    top: 15px;
+    background: #F19B39;
+    border-radius: 8px 0 0 8px;
+    padding: 5px 10px;
+}
+
+.pacotes .card .card-tag-bottom {
+    position: absolute;
+    left: 0;
+    top: 160px;
+    background: #1D61DD;
+    border-radius: 0 8px 8px 0;
+    padding: 5px 10px;
+}
+
+.pacotes .card .card-tag p {
+    margin: 0;
+    font-size: 0.8rem;
+    color: white;
+    font-weight: bold;
+}
+
+
+.footer{
+	background-color: #e1e8f7;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #000000;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #070606;
+	text-decoration: none;
+	font-weight: 300;
+	color: #070707;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #5e5c5c;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #000000;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}

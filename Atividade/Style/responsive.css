@@ -1,0 +1,33 @@
+@media screen and (max-width:700px){
+    header .container{
+        display:flex;
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (min-width:1000px){
+    .descricao{
+        width: 50%;
+    
+    }
+    }
+
+    @media(max-width: 767px){
+        .footer-col{
+          width: 50%;
+          margin-bottom: 30px;
+      }
+      }
+      @media(max-width: 574px){
+        .footer-col{
+          width: 100%;
+      }
+    }
+
+    @media screen and (max-width:700px){
+        header .tela-principal{
+            display:flex;
+            flex-direction: column;
+        }
+    }
